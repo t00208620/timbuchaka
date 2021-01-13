@@ -26,6 +26,17 @@ public class Main {
     //    System.out.println(customer3.getName());
       //  System.out.println(customer3.getEmail());
 
-        Animal animal = new Animal("Animal", 1, 1, 5,5);
+    //    Animal animal = new Animal("Animal", 1, 1, 5,5);
+
+      //  Dog dog = new Dog("Yorkie", 8, 20, 2,4,1,20,"Long Silky");
+     //   dog.eat();
+     //   dog.walk();
+     //   dog.run();
+
+        Avensis avensis = new Avensis(36);
+        avensis.steer(45);
+        avensis.accelerate(30);
+        avensis.accelerate(20);
+        avensis.accelerate(-42);
     }
 }
